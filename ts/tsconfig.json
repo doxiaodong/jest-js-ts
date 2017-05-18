@@ -5,5 +5,8 @@
     "moduleResolution": "node"
   },
   "compileOnSave": false,
-  "buildOnSave": false
+  "buildOnSave": false,
+  "exclude": [
+    "node_modules"
+  ]
 }

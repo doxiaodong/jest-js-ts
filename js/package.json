@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "test": "jest --no-cache"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^20.0.3"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!lodash-es)/"
+    ],
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.js$",
+    "moduleFileExtensions": [
+      "js"
+    ]
+  }
+}

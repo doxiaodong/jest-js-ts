@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "test": "jest --no-cache"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^19.2.3",
+    "@types/lodash-es": "^4.14.5",
+    "jest": "^20.0.3",
+    "ts-jest": "^20.0.3",
+    "typescript": "^2.3.2"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|js)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!lodash-es)/"
+    ],
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ]
+  }
+}

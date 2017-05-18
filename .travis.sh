@@ -3,9 +3,9 @@
 set -ev
 
 cd js
-yarn install
+npm install
 npm test
 
 cd ../ts
-yarn install
+npm install
 npm test

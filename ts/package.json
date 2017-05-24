@@ -19,7 +19,7 @@
       "^.+\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "transformIgnorePatterns": [
-      "<rootDir>/node_modules/(?!lodash-es)/"
+      "<rootDir>/node_modules/(?!lodash-es)"
     ],
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
     "moduleFileExtensions": [
